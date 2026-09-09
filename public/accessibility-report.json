@@ -1,6 +1,6 @@
 {
   "pages_scanned": 5,
-  "total_issues": 70,
+  "total_issues": 69,
   "wcag_version": "2.2",
   "pages": [
     {
@@ -30,11 +30,6 @@
           "criterion": "2.4.4",
           "severity": "warning",
           "message": "<a> has no discernible text: href=https://github.com/sebastienrousseau/python-config/blob/main/LICENSE"
-        },
-        {
-          "criterion": "2.4.4",
-          "severity": "warning",
-          "message": "<a> has no discernible text: href=https://sebastienrousseau.com/python-config/installation/"
         }
       ]
     },

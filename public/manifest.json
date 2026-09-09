@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "How to install and set up @sebastienrousseau/python-config.",
+  "description": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
   "display": "standalone",
   "name": "python-config",
   "orientation": "portrait-primary",
