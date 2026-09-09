@@ -5,7 +5,7 @@ Comprehensive schema, property definitions, and exported options reference for `
 ---
 
 ## Description
-Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.
+Shareable Python configuration standards providing hardened Ruff, Black, Flake8, and MyPy rules.
 
 ---
 
@@ -18,3 +18,20 @@ Shareable Python configuration providing standardized Ruff, Black, Flake8, and M
 | `index.d.ts` | TypeScript | TypeScript >= 5.0 | Type declarations |
 
 ---
+
+## Feature & Property Reference
+
+### 1. ruff.toml
+- **Description**: Exhaustive Ruff configuration with strict linter rule selection, isort import sorting, and py312 target.
+- **Scope**: Production & Development
+- **Status**: Stable & Active
+
+### 2. pyproject.toml
+- **Description**: Standardized pyproject.toml preset declaring MyPy strict settings and build system specifications.
+- **Scope**: Production & Development
+- **Status**: Stable & Active
+
+### 3. .flake8
+- **Description**: Legacy compatibility preset for CI environments running classic Flake8 test batteries.
+- **Scope**: Production & Development
+- **Status**: Stable & Active
