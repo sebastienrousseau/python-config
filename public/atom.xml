@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>python-config</title>
+  <link href="https://sebastienrousseau.com/python-config/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://sebastienrousseau.com/python-config"/>
+  <id>https://sebastienrousseau.com/python-config</id>
+  <updated></updated>
+  <entry>
+    <title>Installation — @sebastienrousseau/python-config</title>
+    <link href="https://sebastienrousseau.com/python-config/installation/"/>
+    <id>https://sebastienrousseau.com/python-config/installation/</id>
+    <updated></updated>
+    <published></published>
+    <summary>How to install and set up @sebastienrousseau/python-config.</summary>
+    <author><name>Unknown</name></author>
+  </entry>
+  <entry>
+    <title>Model Context Protocol (MCP) — @sebastienrousseau/python-config</title>
+    <link href="https://sebastienrousseau.com/python-config/mcp/"/>
+    <id>https://sebastienrousseau.com/python-config/mcp/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Model Context Protocol configuration for @sebastienrousseau/python-config.</summary>
+    <author><name>Unknown</name></author>
+  </entry>
+  <entry>
+    <title>Reference — @sebastienrousseau/python-config</title>
+    <link href="https://sebastienrousseau.com/python-config/reference/"/>
+    <id>https://sebastienrousseau.com/python-config/reference/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Reference specifications and options for @sebastienrousseau/python-config.</summary>
+    <author><name>Unknown</name></author>
+  </entry>
+  <entry>
+    <title>Usage — @sebastienrousseau/python-config</title>
+    <link href="https://sebastienrousseau.com/python-config/usage/"/>
+    <id>https://sebastienrousseau.com/python-config/usage/</id>
+    <updated></updated>
+    <published></published>
+    <summary>How to use and configure @sebastienrousseau/python-config.</summary>
+    <author><name>Unknown</name></author>
+  </entry>
+</feed>

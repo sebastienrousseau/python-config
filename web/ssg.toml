@@ -1,0 +1,16 @@
+site_name = "python-config"
+site_title = "@sebastienrousseau/python-config — Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards."
+site_description = "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards."
+base_url = "https://sebastienrousseau.com/python-config/"
+language = "en-GB"
+
+content_dir = "web/content"
+template_dir = "web/_layouts"
+output_dir = "public"
+
+[agents]
+agents_txt = true
+ai_plugin = true
+
+[agents.mcp]
+enabled = true

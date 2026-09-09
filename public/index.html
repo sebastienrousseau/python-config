@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en-GB" class="no-js"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /><title></title><meta name="description" content="" /><meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               base-uri 'self';
+               object-src 'none';
+               script-src 'self' ;
+               style-src 'self' ;
+               img-src 'self' data: https://img.shields.io https://bestpractices.coreinfrastructure.org https://www.bestpractices.dev https://api.scorecard.dev;
+               font-src 'self';
+               connect-src 'self';
+               form-action 'self';
+               manifest-src 'self';"
+    /><meta property="og:title" content="" /><meta property="og:description" content="" /><meta property="og:type" content="website" /><meta property="og:url" content="https://sebastienrousseau.com/python-config/" /><meta property="og:locale" content="en-GB" /><meta property="og:image" content="https://sebastienrousseau.com/python-config/images/screenshot.png" /><meta property="og:image:width" content="1500" /><meta property="og:image:height" content="1000" /><meta property="og:image:alt" content="@sebastienrousseau/python-config architecture and rule enforcement." /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="https://sebastienrousseau.com/python-config/images/screenshot.png" /><meta name="twitter:image:alt" content="@sebastienrousseau/python-config architecture and rule enforcement." /> <link rel="icon" href="https://sebastienrousseau.com/python-config/favicon.ico" sizes="any" /> <link rel="icon" href="https://sebastienrousseau.com/python-config/assets/logo.svg" type="image/svg+xml" /><meta name="color-scheme" content="light dark" /><meta name="theme-color" content="#ffffff" /><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "TechArticle",
+          "@id": "https://sebastienrousseau.com/python-config/#article",
+          "headline": "",
+          "description": "",
+          "inLanguage": "en-GB",
+          "url": "https://sebastienrousseau.com/python-config/",
+          "author": { "@type": "Organization", "name": "Sebastien Rousseau" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sebastienrousseau.com/python-config/#website",
+          "url": "https://sebastienrousseau.com/python-config/",
+          "name": "python-config",
+          "description": "",
+          "inLanguage": "en-GB"
+        }
+      ]
+    }
+    </script><link rel="stylesheet" href="https://sebastienrousseau.com/python-config/styles.css" /><script src="https://sebastienrousseau.com/python-config/theme-init.js"></script>  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://sebastienrousseau.com/python-config/atom.xml"/>
+  <link rel="alternate" type="application/feed+json" title="JSON Feed" href="https://sebastienrousseau.com/python-config/feed.json"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="stylesheet" href="/highlight.css">
+<link rel="canonical" href="https://sebastienrousseau.com/python-config/"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/python-config/sbom.cdx.json">
+</head><body><a class="skip-link" href="#main">Skip to main content</a><header class="masthead"><div class="lu-shell masthead-in"><a class="brand" href="https://sebastienrousseau.com/python-config/"> <img class="brand-mark" src="https://sebastienrousseau.com/python-config/assets/logo.svg"
+           width="28" height="28" alt="Sebastien Rousseau python-config Logo" /> <span class="brand-name">python-config</span> </a> <button
+      class="nav-btn"
+      type="button"
+      id="nav-toggle"
+      aria-expanded="false"
+      aria-controls="site-nav"
+    >Menu</button><nav class="site-nav" id="site-nav" aria-label="Main"><ul class="nav-list"><li><a href="https://sebastienrousseau.com/python-config/">Home</a></li><li><a href="https://sebastienrousseau.com/python-config/installation/">Installation</a></li><li><a href="https://sebastienrousseau.com/python-config/usage/">Usage</a></li><li><a href="https://sebastienrousseau.com/python-config/reference/">Reference</a></li></ul></nav><div class="masthead-tools"><button class="search-btn-trigger" type="button" onclick="document.getElementById('ssg-search-btn') ? document.getElementById('ssg-search-btn').click() : null" aria-label="Search documentation"> <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> <span class="search-btn-label">Search</span> <kbd class="search-kbd">⌘K</kbd> </button> <button class="mode-btn" type="button" id="mode-toggle"> <span class="mode-btn-label">Theme</span> <span class="mode-btn-state" id="mode-state">System</span> </button></div></div></header><main id="main"><section class="hero" aria-labelledby="hero-h"><div class="lu-shell hero-in"><div class="hero-badges"><a href="https://github.com/sebastienrousseau/python-config/actions" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/github/actions/workflow/status/sebastienrousseau/python-config/ci.yml?branch=main&style=for-the-badge&logo=github" alt="Build Status" /> </a> <a href="https://www.npmjs.com/package/@sebastienrousseau/python-config" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/npm/v/%40sebastienrousseau%2Fpython-config.svg?style=for-the-badge&color=fc8d62&logo=npm" alt="npm package" /> </a> <a href="https://scorecard.dev/viewer/?uri=github.com/sebastienrousseau/python-config" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/ossf-scorecard/github.com/sebastienrousseau/python-config?style=for-the-badge&label=OpenSSF%20Scorecard&logo=openssf" alt="OpenSSF Scorecard" /> </a> <a href="https://www.bestpractices.dev/projects/14508" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/cii/level/14508?style=for-the-badge&label=OpenSSF%20Best%20Practices&logo=openssf" alt="OpenSSF Best Practices" /> </a> <a href="https://github.com/sebastienrousseau/python-config/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue.svg?style=for-the-badge" alt="License: Apache-2.0 OR MIT" /> </a> <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/node->=%2018.0.0-93450a.svg?style=for-the-badge&logo=node.js" alt="Node >= 18.0.0" /> </a></div><h1 id="hero-h" class="hero-h"></h1><p class="hero-lead"></p><p class="hero-actions"><a class="btn btn-primary" href="https://sebastienrousseau.com/python-config/installation/">Get Started</a> <a class="btn btn-quiet" href="https://sebastienrousseau.com/python-config/usage/">Usage Guide</a> <a class="btn btn-quiet" href="https://github.com/sebastienrousseau/python-config" target="_blank" rel="noopener noreferrer">GitHub</a> <a class="btn btn-quiet" href="https://www.npmjs.com/package/@sebastienrousseau/python-config" target="_blank" rel="noopener noreferrer">npm</a></p></div></section><section class="band" aria-labelledby="start-h"><div class="lu-shell"><h2 id="start-h" class="band-h"></h2><p class="band-lead"></p><div class="snippet"><p class="snippet-h" id="snippet-cap"></p><pre class="snippet-body" tabindex="0" role="group" aria-labelledby="snippet-cap"><code></code></pre></div></div></section><section class="band band-soft" aria-labelledby="feat-h"><div class="lu-shell"><h2 id="feat-h" class="band-h"></h2><p class="band-lead"></p><ul class="cards"><li class="card"><h3 class="card-h"></h3><p></p></li><li class="card"><h3 class="card-h"></h3><p></p></li><li class="card"><h3 class="card-h"></h3><p></p></li><li class="card"><h3 class="card-h"></h3><p></p></li></ul></div></section><section class="band prose-band" aria-labelledby="deep-dive-h"><div class="lu-shell lu-shell-narrow"><div class="prose"><div lang="en"><h1>@sebastienrousseau/python-config</h1><p>Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.</p><hr class="divider" /><h2 id="quick-start">Quick Start</h2><pre class="highlight language-bash"><code class="language-bash" data-lang="bash"><span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">npm</span></span><span class="meta function-call arguments shell"> install<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> -</span>D</span> @sebastienrousseau/python-config</span>
+</span></code></pre><h2 id="key-features-and-architecture">Key Features &amp; Architecture</h2><div class="table-responsive"><div class="table-wrap ssg-table-scroll" role="region" aria-label="Table, scrollable horizontally" tabindex="0"><table class="table"><thead><tr><th class="text-left" scope="col">Feature</th><th class="text-left" scope="col">Description</th><th class="text-left" scope="col">Benefit</th></tr></thead><tbody><tr><td class="text-left"><strong>Zero Runtime Overhead</strong></td><td class="text-left">Zero runtime dependencies</td><td class="text-left">Immunity against upstream supply-chain vulnerabilities</td></tr><tr><td class="text-left"><strong>Dual Module Support</strong></td><td class="text-left">Full ESM and CommonJS exports</td><td class="text-left">Seamless integration across legacy and modern toolchains</td></tr><tr><td class="text-left"><strong>Strict Type Safety</strong></td><td class="text-left">Bundled TypeScript <code>.d.ts</code> definitions</td><td class="text-left">Instant autocomplete and schema validation in modern IDEs</td></tr><tr><td class="text-left"><strong>Production Proven</strong></td><td class="text-left">100% test coverage with native Node test runners</td><td class="text-left">Guaranteed reliability and predictable execution</td></tr></tbody></table></div></div><p>For a detailed breakdown of all exported configuration files, visit the <a href="reference/">Reference Guide</a>.</p></div></div></div></section><section class="band" aria-labelledby="proof-h"><div class="lu-shell"><h2 id="proof-h" class="band-h"></h2><p class="band-lead"></p><dl class="facts"><div class="fact"><dt class="fact-t"></dt><dd class="fact-d"></dd></div><div class="fact"><dt class="fact-t"></dt><dd class="fact-d"></dd></div><div class="fact"><dt class="fact-t"></dt><dd class="fact-d"></dd></div></dl><p class="band-cta"><a class="btn btn-primary" href="https://sebastienrousseau.com/python-config/installation/"></a></p></div></section></main><footer class="footer"><div class="lu-shell footer-in"><div class="footer-about"><p class="footer-name">python-config</p><p class="footer-note">python-config is part of the @sebastienrousseau/config suite. Published under Apache-2.0 OR MIT.</p></div><nav class="footer-nav" aria-label="Documentation"><h2 class="footer-h" id="documentation">Documentation</h2><ul><li><a href="https://sebastienrousseau.com/python-config/installation/">Installation</a></li><li><a href="https://sebastienrousseau.com/python-config/usage/">Usage</a></li><li><a href="https://sebastienrousseau.com/python-config/mcp/">MCP</a></li><li><a href="https://sebastienrousseau.com/python-config/reference/">Reference</a></li></ul></nav></div><div class="lu-shell footer-legal"><p>© 2026 Sebastien Rousseau. Licensed under Apache-2.0 OR MIT.</p></div></footer><script src="https://sebastienrousseau.com/python-config/main.js" defer></script>
+<!-- SSG Search Widget -->
+<div id="ssg-search-widget">
+<link rel="stylesheet" href="/python-config/_csp/ab0ff800df72e7d4.css" integrity="sha384-5/lyYdum7VUqasmpxZRYN9CrkRVxSizBemRDvsbiNqMKv2LpzAGqYf1RVnJOlg3X" crossorigin="anonymous">
+<!-- Search trigger button -->
+<button id="ssg-search-btn" type="button" aria-label="Search">
+<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+<span>Search</span>
+<kbd>K</kbd>
+</button>
+<!-- Search modal -->
+<div id="ssg-search-overlay" role="dialog" aria-label="Search">
+<div id="ssg-search-box">
+<div id="ssg-search-header">
+<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+<input id="ssg-search-input" type="search" placeholder="Search documentation..." autocomplete="off" aria-label="Search"/>
+</div>
+<div id="ssg-search-results" aria-live="polite"></div>
+<div id="ssg-sr-status" role="status" aria-live="polite" aria-atomic="true"></div>
+<div class="ssg-search-footer"><span><kbd>Esc</kbd> close</span><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> navigate</span><span><kbd>Enter</kbd> open</span></div>
+</div>
+</div>
+<script src="/python-config/_csp/7a8f3317cb3e758d.js" integrity="sha384-2V4YCJTsab0zZG7X+l2YQs4yUDTNvL3LlUjHfpyZRWLdN/+OB4sXmS6cRCvJ2C/X" crossorigin="anonymous"></script>
+</div>
+</body></html>

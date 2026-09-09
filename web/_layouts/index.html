@@ -1,0 +1,103 @@
+{{#extends "base"}}
+{{#block "main"}}
+<section class="hero" aria-labelledby="hero-h">
+  <div class="lu-shell hero-in">
+    <div class="hero-badges">
+      <a href="https://github.com/sebastienrousseau/{{name}}/actions" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/actions/workflow/status/sebastienrousseau/{{name}}/ci.yml?branch=main&style=for-the-badge&logo=github" alt="Build Status" />
+      </a>
+      <a href="https://www.npmjs.com/package/@sebastienrousseau/{{name}}" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/npm/v/%40sebastienrousseau%2F{{name}}.svg?style=for-the-badge&color=fc8d62&logo=npm" alt="npm package" />
+      </a>
+      <a href="https://scorecard.dev/viewer/?uri=github.com/sebastienrousseau/{{name}}" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/ossf-scorecard/github.com/sebastienrousseau/{{name}}?style=for-the-badge&label=OpenSSF%20Scorecard&logo=openssf" alt="OpenSSF Scorecard" />
+      </a>
+      <a href="https://www.bestpractices.dev/projects/{{openssf_id}}" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/cii/level/{{openssf_id}}?style=for-the-badge&label=OpenSSF%20Best%20Practices&logo=openssf" alt="OpenSSF Best Practices" />
+      </a>
+      <a href="https://github.com/sebastienrousseau/{{name}}/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue.svg?style=for-the-badge" alt="License: Apache-2.0 OR MIT" />
+      </a>
+      <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/node->=%2018.0.0-93450a.svg?style=for-the-badge&logo=node.js" alt="Node >= 18.0.0" />
+      </a>
+    </div>
+    <h1 id="hero-h" class="hero-h">{{headline}}</h1>
+    <p class="hero-lead">{{lead}}</p>
+    <p class="hero-actions">
+      <a class="btn btn-primary" href="{{site_url}}installation/">Get Started</a>
+      <a class="btn btn-quiet" href="{{site_url}}usage/">Usage Guide</a>
+      <a class="btn btn-quiet" href="https://github.com/sebastienrousseau/{{name}}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="btn btn-quiet" href="https://www.npmjs.com/package/@sebastienrousseau/{{name}}" target="_blank" rel="noopener noreferrer">npm</a>
+    </p>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="start-h">
+  <div class="lu-shell">
+    <h2 id="start-h" class="band-h">{{start_h}}</h2>
+    <p class="band-lead">{{start_lead}}</p>
+    <div class="snippet">
+      <p class="snippet-h" id="snippet-cap">{{snippet_caption}}</p>
+      <pre class="snippet-body" tabindex="0" role="group" aria-labelledby="snippet-cap"><code>{{snippet_code}}</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="band band-soft" aria-labelledby="feat-h">
+  <div class="lu-shell">
+    <h2 id="feat-h" class="band-h">{{features_h}}</h2>
+    <p class="band-lead">{{features_lead}}</p>
+    <ul class="cards">
+      <li class="card">
+        <h3 class="card-h">{{f1_h}}</h3>
+        <p>{{f1_body}}</p>
+      </li>
+      <li class="card">
+        <h3 class="card-h">{{f2_h}}</h3>
+        <p>{{f2_body}}</p>
+      </li>
+      <li class="card">
+        <h3 class="card-h">{{f3_h}}</h3>
+        <p>{{f3_body}}</p>
+      </li>
+      <li class="card">
+        <h3 class="card-h">{{f4_h}}</h3>
+        <p>{{f4_body}}</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="band prose-band" aria-labelledby="deep-dive-h">
+  <div class="lu-shell lu-shell-narrow">
+    <div class="prose">
+      {{!content}}
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="proof-h">
+  <div class="lu-shell">
+    <h2 id="proof-h" class="band-h">{{proof_h}}</h2>
+    <p class="band-lead">{{proof_lead}}</p>
+    <dl class="facts">
+      <div class="fact">
+        <dt class="fact-t">{{proof_1_t}}</dt>
+        <dd class="fact-d">{{proof_1_d}}</dd>
+      </div>
+      <div class="fact">
+        <dt class="fact-t">{{proof_2_t}}</dt>
+        <dd class="fact-d">{{proof_2_d}}</dd>
+      </div>
+      <div class="fact">
+        <dt class="fact-t">{{proof_3_t}}</dt>
+        <dd class="fact-d">{{proof_3_d}}</dd>
+      </div>
+    </dl>
+    <p class="band-cta">
+      <a class="btn btn-primary" href="{{site_url}}installation/">{{cta_final}}</a>
+    </p>
+  </div>
+</section>
+{{/block}}

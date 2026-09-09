@@ -1,0 +1,21 @@
+{
+  "api": "ssg-agent-api",
+  "counts": {
+    "posts": 4,
+    "topics": 0
+  },
+  "links": {
+    "index": "https://sebastienrousseau.com/python-config/api/agents/index.json",
+    "person": "https://sebastienrousseau.com/python-config/api/agents/person.json",
+    "posts": "https://sebastienrousseau.com/python-config/api/agents/posts.json",
+    "topics": "https://sebastienrousseau.com/python-config/api/agents/topics.json"
+  },
+  "site": {
+    "description": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
+    "language": "en-GB",
+    "name": "python-config",
+    "title": "@sebastienrousseau/python-config — Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
+    "url": "https://sebastienrousseau.com/python-config"
+  },
+  "version": "0.0.56"
+}

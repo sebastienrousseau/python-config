@@ -1,0 +1,18 @@
+{
+  "api": {
+    "is_user_authenticated": false,
+    "type": "openapi",
+    "url": "https://sebastienrousseau.com/python-config/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@sebastienrousseau.com",
+  "description_for_human": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
+  "description_for_model": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
+  "legal_info_url": "https://sebastienrousseau.com/python-config/legal",
+  "logo_url": "https://sebastienrousseau.com/python-config/favicon.ico",
+  "name_for_human": "@sebastienrousseau/python-config — Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
+  "name_for_model": "python_config",
+  "schema_version": "v1"
+}
