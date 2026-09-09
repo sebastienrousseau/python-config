@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+target-version = "py312"
+line-length = 88
+indent-width = 4
+
+[lint]
+select = ["E", "F", "W", "I", "B", "C4", "UP"]
+ignore = ["E501"]

@@ -1,0 +1,56 @@
+{
+  "name": "@sebastienrousseau/python-config",
+  "version": "0.0.1",
+  "description": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "Apache-2.0 OR MIT",
+  "homepage": "https://github.com/sebastienrousseau/python-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/python-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/python-config/issues"
+  },
+  "keywords": [
+    "config",
+    "python-config",
+    "python",
+    "ruff",
+    "black",
+    "flake8",
+    "mypy",
+    "config"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "pyproject.toml",
+    "ruff.toml",
+    ".flake8",
+    "python-config.svg",
+    "LICENSE",
+    ".editorconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-coverage-lines=98 --test-coverage-branches=98 --test-coverage-functions=98 tests/unit.test.js tests/integration.test.js tests/bench.test.js",
+    "test:coverage": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-coverage-lines=98 --test-coverage-branches=98 --test-coverage-functions=98 tests/unit.test.js tests/integration.test.js tests/bench.test.js",
+    "bench": "node benches/bench_load.js",
+    "examples": "node examples/basic.js && node examples/advanced.js && node examples/features.js && node examples/esm.mjs"
+  }
+}
