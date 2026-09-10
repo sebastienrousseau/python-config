@@ -20,10 +20,13 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. ruff.toml
+
 Exhaustive Ruff configuration with strict linter rule selection, isort import sorting, and py312 target. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. pyproject.toml
+
 Standardized pyproject.toml preset declaring MyPy strict settings and build system specifications. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. .flake8
+
 Legacy compatibility preset for CI environments running classic Flake8 test batteries. Designed to guarantee deterministic behavior across all development and continuous integration environments.

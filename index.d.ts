@@ -1,10 +1,9 @@
-export interface ConfigPreset {
-  name: string;
-  version: string;
-  presets: string[];
-  defaultPreset: string;
-  content: string;
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
+export interface PythonConfig {
+  [key: string]: unknown;
 }
 
-declare const config: ConfigPreset;
+declare const config: PythonConfig;
 export default config;

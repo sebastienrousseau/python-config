@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
 name: Security Analysis
 
 on:
@@ -12,20 +15,12 @@ permissions:
   contents: read
 
 jobs:
-  analyze:
-    name: CodeQL Security Audit
-    runs-on: ubuntu-latest
+  security:
+    name: Supply chain
+    uses: sebastienrousseau/config/.github/workflows/reusable-security.yml@main
     permissions:
       contents: read
       security-events: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@cdf488f595d80d6e07e03d4674febd5ab45fa938 # v4.37.9
-        with:
-          languages: javascript-typescript
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@cdf488f595d80d6e07e03d4674febd5ab45fa938 # v4.37.9
+      pull-requests: write
+    with:
+      node-version: '20'

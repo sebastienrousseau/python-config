@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/python-config",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "Apache-2.0 OR MIT",
@@ -48,11 +48,28 @@
     "access": "public"
   },
   "scripts": {
-    "test": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-coverage-lines=98 --test-coverage-branches=98 --test-coverage-functions=98 tests/unit.test.js tests/integration.test.js tests/bench.test.js",
-    "test:coverage": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-coverage-lines=98 --test-coverage-branches=98 --test-coverage-functions=98 tests/unit.test.js tests/integration.test.js tests/bench.test.js",
+    "test": "node --test tests/conformance.test.js tests/bench.test.js",
     "bench": "node benches/bench_load.js",
     "examples": "node examples/basic.js && node examples/advanced.js && node examples/features.js && node examples/esm.mjs",
     "docs:build": "bash scripts/build-docs.sh",
-    "lint": "node test/test.js"
+    "lint": "node test/test.js",
+    "test:conformance": "node --test tests/conformance.test.js",
+    "fuzz": "node fuzz/fuzz_config.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@sebastienrousseau/config-kit": "^0.0.8"
+  },
+  "configKit": {
+    "shape": "object",
+    "presets": [
+      "pyproject.toml",
+      "ruff.toml",
+      ".flake8"
+    ],
+    "nativeToolchain": "ruff, flake8"
   }
 }
