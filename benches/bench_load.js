@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 const { performance } = require("perf_hooks");
 
 function runBenchmark(iterations = 500) {

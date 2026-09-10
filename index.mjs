@@ -1,18 +1,14 @@
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const presets = ["pyproject.toml","ruff.toml",".flake8"];
-const defaultPreset = "pyproject.toml";
-const content = fs.readFileSync(path.join(__dirname, defaultPreset), "utf8");
+/**
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
+ */
 
-const config = {
-  name: "@sebastienrousseau/python-config",
-  version: "0.0.1",
-  presets,
-  defaultPreset,
-  content
-};
+import config from "./index.cjs";
 
 export default config;
