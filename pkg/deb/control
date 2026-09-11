@@ -1,0 +1,18 @@
+Source: node-sebastienrousseau-python-config
+Section: javascript
+Priority: optional
+Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/sebastienrousseau/python-config
+Rules-Requires-Root: no
+
+Package: node-sebastienrousseau-python-config
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 20)
+Description: Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards
+ @sebastienrousseau/python-config is a shareable configuration preset with no runtime
+ dependencies: inert data plus a loader.
+ .
+ Installed under /usr/share/nodejs so that require() resolves it without
+ further configuration.

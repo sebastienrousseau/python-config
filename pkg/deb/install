@@ -1,0 +1,10 @@
+index.js usr/share/nodejs/@sebastienrousseau/python-config/
+index.mjs usr/share/nodejs/@sebastienrousseau/python-config/
+index.cjs usr/share/nodejs/@sebastienrousseau/python-config/
+index.d.ts usr/share/nodejs/@sebastienrousseau/python-config/
+pyproject.toml usr/share/nodejs/@sebastienrousseau/python-config/
+ruff.toml usr/share/nodejs/@sebastienrousseau/python-config/
+.flake8 usr/share/nodejs/@sebastienrousseau/python-config/
+LICENSE usr/share/nodejs/@sebastienrousseau/python-config/
+.editorconfig usr/share/nodejs/@sebastienrousseau/python-config/
+package.json usr/share/nodejs/@sebastienrousseau/python-config/
