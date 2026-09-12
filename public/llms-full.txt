@@ -1,5 +1,0 @@
-# python-config
-
-> Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.
-
-Language: en-GB
