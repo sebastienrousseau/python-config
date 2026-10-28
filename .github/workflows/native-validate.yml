@@ -17,6 +17,6 @@ permissions:
 jobs:
   native:
     name: Toolchain accepts the presets
-    uses: sebastienrousseau/config/.github/workflows/reusable-native-validate.yml@033324fc70d73f811f89bce66656a70eab1630f7 # main
+    uses: sebastienrousseau/config/.github/workflows/reusable-native-validate.yml@097fb1a947e0821d19cfe2124c634a6ee3106f0a # main
     with:
       language: python
