@@ -10,7 +10,7 @@ const content = fs.readFileSync(path.join(__dirname, defaultPreset), "utf8");
 
 module.exports = {
   name: "@sebastienrousseau/python-config",
-  version: "0.0.7",
+  version: "0.0.9",
   presets,
   defaultPreset,
   content,

@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/python-config",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards.",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "Apache-2.0 OR MIT",
