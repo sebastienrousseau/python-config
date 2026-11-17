@@ -6,7 +6,7 @@
 class PythonConfig < Formula
   desc "Shareable Python configuration providing standardized Ruff, Black, Flake8, and MyPy rules adhering to modern 2026 standards"
   homepage "https://github.com/sebastienrousseau/python-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/python-config/-/python-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/python-config/-/python-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
